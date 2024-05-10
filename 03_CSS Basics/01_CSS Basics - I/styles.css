@@ -1,0 +1,30 @@
+p {
+    color:red;
+    font-size: larger;
+
+}
+/* h1{
+    background-color: violet;
+} */
+table{
+    border: 10px solid rgb(215, 63, 63);
+}
+.green{
+    color: rgb(108, 154, 40);
+}
+.blue{
+    color: rgb(74, 74, 217);
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: larger;
+}
+#first_button{
+    background-color: rgb(18, 199, 239);
+    color: red;
+}
+#first_button:hover{
+    color: rgb(238, 223, 56);
+}

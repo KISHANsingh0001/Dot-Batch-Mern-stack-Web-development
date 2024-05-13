@@ -1,0 +1,20 @@
+/* transform with translate() allows you to move an element from its current position along the horizontal and/or vertical axes. It doesn't change the space occupied by the element in the document flow, meaning other elements on the page won't be affected by its movement. */
+/* .element {
+    transform: translate(X, Y);
+} */
+/* X specifies the horizontal translation, and Y specifies the vertical translation. These values can be specified in pixels (px), percentages (%), or other length units.
+
+Positive values of X move the element to the right, while negative values move it to the left.
+
+Positive values of Y move the element down, while negative values move it up. */
+.box{
+    background-color: aqua;
+    /* transform: translate(500px , 400px); */
+    margin: 200px;
+    /* transform: rotate(5deg); */
+    /* transform: scale(1.5,3); */
+    /* word-spacing: 5px; */
+    
+    /* transform: skew(10deg); */
+    
+}

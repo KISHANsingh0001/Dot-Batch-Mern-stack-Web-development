@@ -1,0 +1,25 @@
+/* syntex of the shadow is : [text-shadow : horizontal length vertical length Blur color;] */
+h1{
+    text-shadow: 3px 3px 3px rgb(34, 32, 33);
+    /* Multiple shadow created */
+    text-shadow: 3px 3px 3px red , 5px 5px 5px green ;
+}
+.box{
+    border: 1px solid black;
+    color: black;
+    background-color: aqua;
+    width: 200px;
+    height: 200px; 
+    /* By using nagative values we can chage the direction of the shadow */
+    box-shadow: 10px 10px 15px  green , -10px -10px 10px brown;
+
+    /* Creating border using box shadow property */
+    /*box-shadow: 0 1px 0 0 red; *//* Border bottom */
+    /*box-shadow: 0 -1px 0 0 red;*/ /* Border top */
+    /*box-shadow: -1px 0 0 0 red;*/ /* Border left */
+    /*box-shadow: 1px 0 0 0 red; *//*Border right */
+    /*box-shadow: 0 0 0 1px red; *//*All the borders by using the spread properties*/
+}
+/* .para{
+    text-shadow: 1px 1px 2px black , -1px -1px 2px black;
+} */

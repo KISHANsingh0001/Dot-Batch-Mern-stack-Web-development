@@ -1,0 +1,28 @@
+/* Syantex of linear gradien is : 
+            background-image: linear-gradient(direction,color-stop1,color-stop2);
+            */
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* By defult gradien top se bottom ki orr hota hai */
+    /* background-image: linear-gradient(Red , Blue);
+    background-image: linear-gradient(to right ,Red , Blue);
+    background-image: linear-gradient(to left ,Red , Blue);
+    background-image: linear-gradient(to top ,Red , Blue);
+    background-image: linear-gradient(to bottom right ,Red , Blue);
+    background-image: linear-gradient(to bottom left ,Red , Blue); */
+    background-image: linear-gradient(55deg ,Red , Blue , green , white);
+
+
+
+}
+.mydiv{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    /* background-image: radial-gradient(circle,red,yellow,green); */
+    background-image: linear-gradient(rgb(238, 169, 42) , white , green);
+    /* background-image: radial-gradient(yellow 5% , orange 10% , red 50%); */
+}

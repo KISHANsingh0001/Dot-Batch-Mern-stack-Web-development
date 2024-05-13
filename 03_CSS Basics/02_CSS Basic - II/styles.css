@@ -26,3 +26,11 @@
     background-image: linear-gradient(rgb(238, 169, 42) , white , green);
     /* background-image: radial-gradient(yellow 5% , orange 10% , red 50%); */
 }
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-image: conic-gradient(red , yellow , green , blue , black);
+    border-radius: 50%;
+}

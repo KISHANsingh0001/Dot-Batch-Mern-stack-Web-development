@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    display: inline;
+}
+
+
+.container{
+    background-color: brown;
+    border: 2px solid black;
+    height: 500px;
+    /* jese hi grid likha tha box ke bich mai spacing aa gayi */
+    display: grid;
+    /* Adding columns in gird */
+    /* grid-template-columns: 200px 200px 210px; */
+
+    /* fr shows the fraction it makes responsive grid */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3 , 1fr);
+
+    /* Adding rows in gird */
+    /* grid-template-rows: 90px 90px 90px 90px; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-rows: repeat(4 , 1fr);
+    gap: 15px;
+
+}
+.box{
+    border: 1px solid black;
+    /* width: 80px;*/
+    /* height: 80px;  */
+    background-color: aqua;
+}
+#box1{
+    grid-column-start: 1; 
+    grid-column-end: 3;
+}
+#box3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}

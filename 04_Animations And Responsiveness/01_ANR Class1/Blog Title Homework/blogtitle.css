@@ -46,12 +46,14 @@
     gap: 2%;
     grid-template-rows: repeat(3 , 1fr);
     grid-template-columns: repeat(2 , 1fr);
+    
 }
 .card{
     /* width: 30rem; */
     /* border: 1px solid gray; */
     box-shadow: 2px 2px 2px 2px grey;
     overflow-y: auto;
+    padding: 2%;
 }
 .card::-webkit-scrollbar{
     display: none;
@@ -69,7 +71,7 @@
 }
 .continueR{
     position: relative;
-    top: 31%;
+    top: 30%;
     
 }
 @media (max-width:600px){

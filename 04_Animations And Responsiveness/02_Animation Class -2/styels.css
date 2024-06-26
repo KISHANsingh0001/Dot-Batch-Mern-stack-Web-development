@@ -1,5 +1,8 @@
 /* Global variable */
-:root{
+/* :root{
+    --dark-red:#981a2c;
+} */
+*{
     --dark-red:#981a2c;
 }
 .container{
@@ -12,6 +15,6 @@
     border: 2px solid green;
     background-color: aqua;
     /* Variable initilization (Local variable)*/
-    --dark-red: #981a2c;
-    color: var(--dark-red);
+    /* --dark-red: #981a2c; */ 
+     color: var(--dark-red); 
 }
